@@ -1,0 +1,41 @@
+.categories{
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+}
+.loading{
+    align-self: center;
+    justify-self: center;
+
+}
+.singleProduct{
+    font-family: monospace;
+    width: 300px;
+    height: 340px;
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.singleProduct img {
+    height: 40%;
+}
+.btn button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.btn button:hover{
+  background-color: black;
+  color: whitesmoke;
+}
